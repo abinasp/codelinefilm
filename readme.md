@@ -21,7 +21,7 @@ It's an application, where you can see the list of films and can create your own
 - Run `php artisan serve` in terminal.
 - Open `localhost:8000` in the browser.
 
-##User
+## Dummy User
 
 - After migration you can login by using the below credentials Or you can create a new user.
 - `username`: `johndoe@gmail.com`
