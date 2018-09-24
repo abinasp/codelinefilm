@@ -12,7 +12,7 @@ It's an application, where you can see the list of films and can create your own
 ## Installation
 
 - Install Laravel by using this command. `composer global require "laravel/installer"`.
-- Clone this repository by using command `git clone`.
+- Clone this repository by using command `git clone https://github.com/abinasp/codelinefilm.git`.
 - Run `composer install`. It will install all the dependencies which is present in `composer.json` file. 
 - Set up `.env` file by copying all the value from `.env.example` file.
 - Configure `MySql` database in your `.env ` file.
