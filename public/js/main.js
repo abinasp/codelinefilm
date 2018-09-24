@@ -45,6 +45,7 @@ $('document').ready(function () {
                 url: '/saveFilm',
                 success: function(data){
                     if(data){
+                        location.reload();
                        $('#createFilm').modal('hide');
                    }
                 }

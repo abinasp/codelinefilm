@@ -45,6 +45,7 @@ $('document').ready(function () {
                 url: '/saveFilm',
                 success: function(data){
                     if(data){
+                        location.reload();
                         $('#createFilm').modal('hide');
                     }
                 }
@@ -81,6 +82,7 @@ function commentSubmit(userId,filmId) {
             success: function(data){
                 document.getElementById('userComment').value = '';
                 alert("Thank you!!");
+                location.reload();
             }
         })
     }

@@ -67,10 +67,10 @@
                         </div>
                     @endif
                 </div>
+
             </div>
         </div>
     </nav>
-
     <div class="modal fade" id="createFilm" tabindex="-1" role="dialog"
          aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">

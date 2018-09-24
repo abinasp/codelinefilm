@@ -68,6 +68,8 @@
     </div>
 </nav>
 
+
+
 <div class="modal fade" id="createFilm" tabindex="-1" role="dialog"
      aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -174,6 +176,8 @@
         </div>
     </div>
 </div>
+
+
 
 <div id="bg-div">
     <img src="{{$film->photo}}">
