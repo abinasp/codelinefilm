@@ -31,4 +31,4 @@ It's an application, where you can see the list of films and can create your own
 - After giving comment, you can see your comment by refreshing the browser. 
 
 ## Need to fix
-- While creating a film you can upload photo, you need to give the photo URL.
+- While creating a film you can't upload photo, you need to give the photo URL.
