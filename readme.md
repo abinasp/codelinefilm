@@ -16,9 +16,16 @@ It's an application, where you can see the list of films and can create your own
 - Run `composer install`. It will install all the dependencies which is present in `composer.json` file. 
 - Set up `.env` file by copying all the value from `.env.example` file.
 - Configure `MySql` database in your `.env ` file.
-- Run `php artisan migrate:refresh --seed`. It will create the database and will put some data in the database.
+- I had created my own database in phpmyadmin which was `codeline_db`. You can create your own database.
+- Run `php artisan migrate:refresh --seed`. It will create tables and will put some data in the tables.
 - Run `php artisan serve` in terminal.
 - Open `localhost:8000` in the browser.
+
+##User
+
+- After migration you can login by using the below credentials Or you can create a new user.
+- `username`: `johndoe@gmail.com`
+- `password`: `asdf@123`
 
 ## Result
 
